@@ -1,52 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Help Adriell Recover</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: url('A_digital_image_features_an_abstract_background_de.png') no-repeat center center fixed;
       background-size: cover;
-      color: white;
+      color: #fff;
       text-shadow: 1px 1px 3px #000;
-    }
+    }.container {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 2rem;
+  max-width: 90%;
+  width: 500px;
+  margin: 2rem auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
 
-    .container {
-      background-color: rgba(0, 0, 0, 0.6); /* optional: darkens the background for readability */
-      padding: 2rem;
-      max-width: 600px;
-      margin: 2rem auto;
-      border-radius: 10px;
-    }
+h1, h2, p {
+  text-align: center;
+}
 
-    h1, p, a {
-      text-align: center;
-    }
+.progress-bar {
+  background-color: #444;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 1rem;
+}
 
-    a.button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 1rem 2rem;
-      background-color: #1a73e8;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
+.progress-fill {
+  background-color: #1a73e8;
+  height: 24px;
+  width: 5%;
+  text-align: center;
+  line-height: 24px;
+  font-weight: bold;
+  color: #fff;
+}
 
-    a.button:hover {
-      background-color: #155ab6;
-    }
+.goal-text {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+a.button {
+  display: block;
+  margin: 2rem auto 0;
+  padding: 1rem;
+  background-color: #1a73e8;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  max-width: 300px;
+}
+
+a.button:hover {
+  background-color: #155ab6;
+}
+
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Help Adriell Recover from a Scam</h1>
-    <p>Adriell was scammed after translating a book. You can help him by donating below.</p>
-    <a class="button" href="https://www.paypal.com/paypalme/my/profile" target="_blank">Donate via PayPal</a>
+    <p>
+      I'm Adriell. I recently found a job offer online that promised a $2000 wage. On payday, the fake employer asked for my bank details to "transfer the money." Instead, they completely drained my account.
+      <br><br>
+      I'm currently rebuilding my life and would be deeply grateful for any help you can offer. Every donation — no matter the size — helps me recover and move forward.
+    </p><h2>Donation Progress</h2>
+<div class="progress-bar">
+  <div class="progress-fill">5%</div>
+</div>
+<div class="goal-text">Raised: $500 / $10,000</div>
+
+<a class="button" href="https://www.paypal.com/paypalme/my/profile" target="_blank">Donate via PayPal</a>
+
   </div>
 </body>
 </html>
